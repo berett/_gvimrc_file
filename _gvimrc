@@ -1,1 +1,22 @@
+if &term == "builtin_gui" 
+	set background=light 
+else
+	set background=dark 
+endif
+
+colorscheme slate
+
+syntax on
+
+set guifont=Lucida\ Console:h10
+set backspace=indent,eol,start
 set number
+set scrolloff=4
+set wildmenu
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set columns=150
+set lines=50
+set ruler
+
